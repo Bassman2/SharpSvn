@@ -7,8 +7,8 @@
     <ProjectGuid>{842D98EF-2B32-42AE-9E50-4C9D028B4B84}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Subversion</RootNamespace>
-    <AssemblyName>Subversion</AssemblyName>
+    <RootNamespace>SharpSvn</RootNamespace>
+    <AssemblyName>SharpSvn</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />

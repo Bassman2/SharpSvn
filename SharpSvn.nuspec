@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>$id$</id>
+    <version>2.2-beta1</version>
+    <title>$title$</title>
+    <authors>Ralf Beckers</authors>
+    <owners>Ralf Beckers</owners>
+    <license type="expression">MIT</license>
+    <projectUrl>https://github.com/Bassman2/SharpSvn</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>SharpSvn facade to run on 32 and 64 bit and with different client versions.</description>
+    <releaseNotes>Creation</releaseNotes>
+    <copyright>Copyright 2017 - 2019 by Ralf Beckers</copyright>
+    <tags>Subversion SharpSvn</tags>
+    <dependencies>
+      <group targetFramework=".NETFramework4.5" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="SharpSvnLicense.txt" target="content" />
+	
+	<file src="SharpSvn\v1.7\x86\SharpSvn.dll" target="lib\net45\SharpSvn\v1.7\x86\" />
+	<file src="SharpSvn\v1.7\x86\SharpPlink-Win32.svnExe" target="lib\net45\SharpSvn\v1.7\x86\" />
+	<file src="SharpSvn\v1.7\x86\SharpSvn-DB44-20-win32.svnDll" target="lib\net45\SharpSvn\v1.7\x86\" />
+	
+	<file src="SharpSvn\v1.7\x64\SharpSvn.dll" target="lib\net45\SharpSvn\v1.7\x64\" />
+	<file src="SharpSvn\v1.7\x64\SharpPlink-x64.svnExe" target="lib\net45\SharpSvn\v1.7\x64\" />
+	<file src="SharpSvn\v1.7\x64\SharpSvn-DB44-20-x64.svnDll" target="lib\net45\SharpSvn\v1.7\x64\" />
+
+	<file src="SharpSvn\v1.8\x86\SharpSvn.dll" target="lib\net45\SharpSvn\v1.8\x86\" />
+	<file src="SharpSvn\v1.8\x86\SharpPlink-Win32.svnExe" target="lib\net45\SharpSvn\v1.8\x86\" />
+	<file src="SharpSvn\v1.8\x86\SharpSvn-DB44-20-win32.svnDll" target="lib\net45\SharpSvn\v1.8\x86\" />
+
+	<file src="SharpSvn\v1.8\x64\SharpSvn.dll" target="lib\net45\SharpSvn\v1.8\x64\" />
+	<file src="SharpSvn\v1.8\x64\SharpPlink-x64.svnExe" target="lib\net45\SharpSvn\v1.8\x64\" />
+	<file src="SharpSvn\v1.8\x64\SharpSvn-DB44-20-x64.svnDll" target="lib\net45\SharpSvn\v1.8\x64\" />
+
+	<file src="SharpSvn\v1.9\x86\SharpSvn.dll" target="lib\net45\SharpSvn\v1.9\x86\" />
+	<file src="SharpSvn\v1.9\x86\SharpPlink-Win32.svnExe" target="lib\net45\SharpSvn\v1.9\x86\" />
+	<file src="SharpSvn\v1.9\x86\SharpSvn-DB44-20-win32.svnDll" target="lib\net45\SharpSvn\v1.9\x86\" />
+
+	<file src="SharpSvn\v1.9\x64\SharpSvn.dll" target="lib\net45\SharpSvn\v1.9\x64\" />
+	<file src="SharpSvn\v1.9\x64\SharpPlink-x64.svnExe" target="lib\net45\SharpSvn\v1.9\x64\" />
+	<file src="SharpSvn\v1.9\x64\SharpSvn-DB44-20-x64.svnDll" target="lib\net45\SharpSvn\v1.9\x64\" />
+	</files>
+</package>
