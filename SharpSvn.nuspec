@@ -2,7 +2,7 @@
 <package>
   <metadata>
     <id>$id$</id>
-    <version>2.2-beta1</version>
+    <version>2.2-beta2</version>
     <title>$title$</title>
     <authors>Ralf Beckers</authors>
     <owners>Ralf Beckers</owners>
@@ -16,32 +16,11 @@
     <dependencies>
       <group targetFramework=".NETFramework4.5" />
     </dependencies>
+	<contentFiles>
+	  <files include="any\any\SharpSvn\**" copyToOutput="true" buildAction="None" />
+    </contentFiles>
   </metadata>
   <files>
     <file src="SharpSvnLicense.txt" target="content" />
-	
-	<file src="SharpSvn\v1.7\x86\SharpSvn.dll" target="lib\net45\SharpSvn\v1.7\x86\" />
-	<file src="SharpSvn\v1.7\x86\SharpPlink-Win32.svnExe" target="lib\net45\SharpSvn\v1.7\x86\" />
-	<file src="SharpSvn\v1.7\x86\SharpSvn-DB44-20-win32.svnDll" target="lib\net45\SharpSvn\v1.7\x86\" />
-	
-	<file src="SharpSvn\v1.7\x64\SharpSvn.dll" target="lib\net45\SharpSvn\v1.7\x64\" />
-	<file src="SharpSvn\v1.7\x64\SharpPlink-x64.svnExe" target="lib\net45\SharpSvn\v1.7\x64\" />
-	<file src="SharpSvn\v1.7\x64\SharpSvn-DB44-20-x64.svnDll" target="lib\net45\SharpSvn\v1.7\x64\" />
-
-	<file src="SharpSvn\v1.8\x86\SharpSvn.dll" target="lib\net45\SharpSvn\v1.8\x86\" />
-	<file src="SharpSvn\v1.8\x86\SharpPlink-Win32.svnExe" target="lib\net45\SharpSvn\v1.8\x86\" />
-	<file src="SharpSvn\v1.8\x86\SharpSvn-DB44-20-win32.svnDll" target="lib\net45\SharpSvn\v1.8\x86\" />
-
-	<file src="SharpSvn\v1.8\x64\SharpSvn.dll" target="lib\net45\SharpSvn\v1.8\x64\" />
-	<file src="SharpSvn\v1.8\x64\SharpPlink-x64.svnExe" target="lib\net45\SharpSvn\v1.8\x64\" />
-	<file src="SharpSvn\v1.8\x64\SharpSvn-DB44-20-x64.svnDll" target="lib\net45\SharpSvn\v1.8\x64\" />
-
-	<file src="SharpSvn\v1.9\x86\SharpSvn.dll" target="lib\net45\SharpSvn\v1.9\x86\" />
-	<file src="SharpSvn\v1.9\x86\SharpPlink-Win32.svnExe" target="lib\net45\SharpSvn\v1.9\x86\" />
-	<file src="SharpSvn\v1.9\x86\SharpSvn-DB44-20-win32.svnDll" target="lib\net45\SharpSvn\v1.9\x86\" />
-
-	<file src="SharpSvn\v1.9\x64\SharpSvn.dll" target="lib\net45\SharpSvn\v1.9\x64\" />
-	<file src="SharpSvn\v1.9\x64\SharpPlink-x64.svnExe" target="lib\net45\SharpSvn\v1.9\x64\" />
-	<file src="SharpSvn\v1.9\x64\SharpSvn-DB44-20-x64.svnDll" target="lib\net45\SharpSvn\v1.9\x64\" />
-	</files>
+  </files>
 </package>
