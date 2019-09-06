@@ -16,11 +16,9 @@
     <dependencies>
       <group targetFramework=".NETFramework4.5" />
     </dependencies>
-	<contentFiles>
-	  <files include="any\any\SharpSvn\**" copyToOutput="true" buildAction="None" />
-    </contentFiles>
   </metadata>
   <files>
-    <file src="SharpSvnLicense.txt" target="content" />
+    	<file src="bin\Release\**" target="lib/net45" />	
+
   </files>
 </package>
